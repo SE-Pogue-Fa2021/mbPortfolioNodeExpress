@@ -1,0 +1,26 @@
+/*matthew beaulieu - dice roller cs - dice roller css*/
+
+/*center header and instructions*/
+body{
+    text-align:center; 
+}
+
+/*styles button*/
+button{
+    border:thick solid black; 
+    border-radius:10px;
+    text-align: center; 
+    font-size:28px; 
+    padding: 20px; 
+    width: 200px;
+    height: 200px; 
+    margin: 5px;
+    transition-duration: 0.4s;
+}
+
+/*styles button when the mouse hovers over it*/
+button:hover{
+    width:210px; 
+    height:210px; 
+    font-weight:bold;
+}
