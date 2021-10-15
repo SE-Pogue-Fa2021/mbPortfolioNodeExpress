@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'mbPortfolioNodeExpress'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D96AFF892F204B14BF526583EC15A602 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_865A67F3A2154C59B2F39DB26DD7C56F }}
           package: .
