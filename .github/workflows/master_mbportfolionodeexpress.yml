@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v1
         with:
-          node-version: '~12'
+          node-version: '14.x'
 
       - name: npm install, build, and test
         run: |
@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'mbPortfolioNodeExpress'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4AB5A58F023447FF8B580E80CAFA3E72 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_537F3F9C61D34D6688650D0DBBAA8E1B }}
           package: .
