@@ -1,11 +1,23 @@
 {
-    "name": "mbPortfolioNodeExpress",
-    "description": "Matthew Beaulieu assignment portfolio using Express",
-    "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
-    "scripts": {
-        "start": "node index.js"
-    }
+  "name": "mbportfolionodeexpress",
+  "version": "1.0.0",
+  "description": "Assignment Portfolio using Node and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewbeaulieu10/mbPortfolioNodeExpress.git"
+  },
+  "author": "mattehw beaulieu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewbeaulieu10/mbPortfolioNodeExpress/issues"
+  },
+  "homepage": "https://github.com/matthewbeaulieu10/mbPortfolioNodeExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
+  }
 }
